@@ -68,16 +68,14 @@ The following table presents a summary of the precision and recall for several a
 
 | Model | Precision @ k=10 | Recall @ k=10 |
 |---|---|---|
-| User-user (R00) | 0.05653 | 0.29065 |
-| Item-item (R00) | 0.05561 | 0.26399 |
-| Hybrid without content (R01) | 0.06082 | 0.29224 |
-| Hybrid with content (R01-with) | 0.06142 | 0.29726 |
-| Nearest neighbor k=150 (R07) without content (0.55, 0.45) | 0.06078 | 0.29213 |
-| Nearest neighbor k=150 (R07) with content (0.55, 0.45) | 0.06110 | 0.29482 |
-| Decay (R08-decay) - Final | 0.06137 | 0.29596 |
+| User-user | 0.05653 | 0.29065 |
+| Item-item | 0.05561 | 0.26399 |
+| Hybrid without content | 0.06082 | 0.29224 |
+| Hybrid with content (R01-with) | 0.06120 | 0.29497 |
+| Nearest neighbor k=150 without content (0.55, 0.45) | 0.06078 | 0.29213 |
+| Nearest neighbor k=150 with content (0.55, 0.45) | 0.06110 | 0.29482 |
+| Decay - Final model | 0.06137 | 0.29596 |
 | Embedding | 0.06095 | 0.29336 |
-
-> Rerun nearest neighbor as a save-as of hybrid with content to check if results for neighbor are accurate.
 
 ---
 
